@@ -1,1 +1,12 @@
-#WRITE YOUR CODE IN THIS FILE
+def name(n):
+    return n
+
+def favorites(favNum, favCol):
+    return favNum, favCol
+
+def bigAdd(x, y, z, a, b):
+    return x + y + z + a + b
+
+def fourOperations(x, y, z, a, b):
+    return x + y - z * a - b
+    

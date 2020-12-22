@@ -1,11 +1,13 @@
-def name(n):
-    return "Porter O'Brien"
+def name():
+    return "n"
 
-def favorites(favNum, favCol):
-    return "64, Blue"
+def favorites():
+    return "favNum, favCol"
 
 def bigAdd(x, y, z, a, b):
     return x + y + z + a + b
 
 def fourOperations(x, y, z, a, b):
     return x + y - z * a - b
+
+print(name())

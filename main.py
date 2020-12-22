@@ -1,9 +1,9 @@
 def name(n):
     return (n)
 print(name("Porter O'Brien"))
-def favorites(favNum, favCol):
-    return "my favorite number is 64" + " " + "my favorite color is blue"
-print (favorites(favNum, favCol))
+def favorites(favCol, favNum):
+    return "my favorite color is" + " " + favCol + " " + "my favorite number is" + " " + favNum
+print (favorites("blue", "64"))
 
 def bigAdd(x, y, z, a, b):
     return x + y + z + a + b
